@@ -11,6 +11,7 @@ public class SwithStatement {
             break;
             case "Verano": System.out.println("Es Verano");
             break;
+            default : System.out.println("No se trata de una estación");
         }
     
     }
