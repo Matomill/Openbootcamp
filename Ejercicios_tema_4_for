@@ -1,19 +1,9 @@
-public class IfStatement {
+public class ForStatement {
     public static void main(String args[]) {
-        int numero = -3;
         
-        if (numero > 0) {
-             System.out.println("Se trata de un número positivo");
+        for (int numeroFor = 0; numeroFor <= 3;numeroFor = numeroFor +1) {
+            System.out.println(numeroFor);
         }
-       
-        
-        if (numero < 0 ) {
-            System.out.println("Estamos hablando de un número negativo");
-        }
-        
-        
-        else {
-             System.out.println("Es un cero!");
-        }
-   }
+            
+    }
 }
