@@ -1,0 +1,17 @@
+public class SwithStatement {
+    public static void main(String args[]) {
+        String estacion = "Otono";
+        
+        switch (estacion) {
+            case "Otono": System.out.println("Es Otoño");
+            break;
+            case "Invierno": System.out.println("Es Invierno");
+            break;
+            case "Primavera": System.out.println("Es Primavera");
+            break;
+            case "Verano": System.out.println("Es Verano");
+            break;
+        }
+    
+    }
+}
